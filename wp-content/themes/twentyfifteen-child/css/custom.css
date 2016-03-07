@@ -1,0 +1,153 @@
+@media (max-width:1200px) {
+  .container{ width:96%; margin:0 auto; padding:0;}
+  header .nav_sec .navbar-default .navbar-nav > li > a{ padding:10px 24px;}
+#cssmenu > ul > li > a{ padding: 10px 26px !important;}
+}
+
+/************ Main **************/
+@media (max-width: 960px) {
+  header .nav_sec .navbar-default .navbar-nav > li > a{ padding:10px 13px;}
+#cssmenu > ul > li > a{ padding: 10px 14px !important; font-size: 11px !important}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{ width:50% !important}
+}
+
+@media (max-width: 767px) {
+  html { -webkit-text-size-adjust:none;}
+  .container{ width:93%; margin:0 auto; padding:0;}
+  header .logo_sec .logo{ width:210px; margin-top:26px;}
+
+  section .blog_sec h1{ font-size:25px; margin-bottom:30px;}
+  section .blog_sec .blog_block p{ font-size:14px; line-height:22px;}
+  section .blog_sec .blog_block{ margin-bottom:30px;}
+  section .blog_sec{ padding-bottom:0;}
+  footer .footer_detail{ text-align:center;}
+  footer .footer_detail .detail_2 .barkat_gallery{ margin-bottom:10px;}
+  footer .footer_detail .detail_2 .inner{ padding-bottom:20px;}
+
+  #cssmenu,
+  #cssmenu ul,
+  #cssmenu ul li,
+  #cssmenu ul li a,
+  #cssmenu #menu-button {
+    z-index:0 !important;
+  }
+
+  /***********  Blog deetail page 26-08-15  ************/
+  .blog_detail .rightbelt .top_search {
+    margin-top:40px;
+  }
+  .blog_detail .rightbelt .archieve ul li {
+    display:inline-block; margin-right:20px; margin-bottom:20px;
+  }
+  
+  .woocommerce div.product div.images img{ width: 100% !Important}
+  .owl-carousel-thumnails .item img{ width: auto !important; }
+  
+    .owls-slider-homepage .owl-prev, .owls-slider-homepage .owl-next{
+        height: 25px;
+        line-height: 25px;
+        top: 42%;
+        width: 25px;
+        font-size: 16px;
+    }
+    .owls-slider-homepage .owl-dots{display: none !important;}
+    
+    .sub-menu li a{
+      padding-left: 50px !important;
+    }
+    
+    .page-template-homepage .blog_sec .blog_block .caption h3{ font-size: 17px; letter-spacing: 3px; }
+	.popup_box{ margin:0px; padding:0px;z-index:9999 !important; width:240px;}
+	.popup_box h4{ font-size:15px; margin-top:0px; font-family:Cambria !important;}
+	
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{ width:50% !important}
+
+.images {width:57% !important; margin:0 auto;}
+.summary.entry-summary {width:100% !important;}
+}
+
+/************ iphone **************/
+@media (max-width:600px) {
+  html { -webkit-text-size-adjust:none;}
+  .container{ width:91%;}
+  header .top_part .top_link .left ul li a{ padding:0 5px;}
+  header .top_part .top_link .currency_btn .btn-default{ padding:0 5px;}
+  header .logo_sec .logo{ float:none; margin:0 auto;}
+  header .logo_sec .right_block{ width:100%; float:left;}
+  header .logo_sec .right_block ul.right_menu{ width:100%; text-align:center;}
+  header .logo_sec .right_block .search_sec{ width:100%;}
+  header .logo_sec .right_block .search_sec .search{ width:70%;}
+  header .logo_sec .right_block .search_sec .advanced{ float:right;}
+  
+  .related-arrow-area{float: right;margin-top: 2px;}
+  .related-arrow-area .related-arrow{
+	float:left;
+    color: #000 !important;
+    font-size: 15px !important;
+	padding:0px 10px;
+	line-height:25px;
+    text-align: center;cursor: pointer;
+}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 800px){
+
+.images {width:35% !important;}
+.summary.entry-summary {width:44% !important;}
+}
+
+@media (min-width: 990px) and (max-width: 1080px){
+	
+	.summary.entry-summary {width:58% !important; padding-left:10px;}
+
+}
+
+@media (min-width: 850px) and (max-width: 990px){	
+	.summary.entry-summary {width:50% !important; padding-left:10px;}
+}
+
+@media (min-width: 800px) and (max-width: 850px){	
+	.summary.entry-summary {width:48% !important; padding-left:10px;}
+}
+
+@media (max-width:400px) {
+.images {
+    margin: 0 auto;
+    width: 81% !important;
+}
+}  
+
+@media (min-width: 1024px) and (max-width: 1200px){
+
+ .thumnails-arrow{ position:relative; top: -27%}
+
+}  
+
+@media (min-width: 960px) and (max-width: 1024px){
+
+ .thumnails-arrow{ position:relative; margin-top: -35%}
+
+}  
+
+@media (min-width: 768px) and (max-width: 960px){
+
+ .thumnails-arrow{ position:relative; margin-top: -39%; margin-bottom: 100px;}
+
+} 
+
+@media (min-width: 320px) and (max-width: 400px){
+
+ 
+.thumnails-arrow{ width: 76px; margin: 0 auto; margin-top:-10%; margin-bottom: 120px;}
+ .thumnails-left-arrow{ float:left; color: #000 !important;  font-size: 32px !important; padding:0px 17px; line-height:46px; text-align: center;cursor: pointer; margin-left: -10%}
+ .thumnails-right-arrow{ float:left; color: #000 !important;  font-size: 32px !important; padding:0px 17px; line-height:46px; text-align: center;cursor: pointer; margin-right: -10%}
+}
+@media (min-width: 401px) and (max-width: 767px){
+
+ .thumnails-arrow{ width: 76px; margin: 0 auto; margin-top:-10%; margin-bottom: 120px;}
+ .thumnails-left-arrow{ float:left; color: #000 !important;  font-size: 32px !important; padding:0px 17px; line-height:46px; text-align: center;cursor: pointer; margin-left: -10%}
+ .thumnails-right-arrow{ float:left; color: #000 !important;  font-size: 32px !important; padding:0px 17px; line-height:46px; text-align: center;cursor: pointer; margin-right: -10%}
+
+}  
